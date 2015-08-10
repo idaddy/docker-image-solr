@@ -26,4 +26,4 @@ COPY ./mmseg4j-solr/ /opt/solr/server/solr/lib/
 EXPOSE 8983
 
 WORKDIR /opt/solr/server
-CMD ["/opt/solr/bin/solr", "start"]
+CMD ["/opt/solr/bin/solr", "start", "-f"]
